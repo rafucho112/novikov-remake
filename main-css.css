@@ -198,6 +198,7 @@ p span {
     width: 38vw;
     left: 52.5vw;
     top: 12vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text3 {
@@ -210,6 +211,7 @@ p span {
     width: 38vw;
     left: 52.5vw;
     top: 20vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text4 {
@@ -222,6 +224,7 @@ p span {
     width: 38vw;
     left: 52.5vw;
     top: 34.5vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text_buttonfirst {
@@ -235,6 +238,7 @@ p span {
     left: 56vw;
     top: 43vw;
     width: 18vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button_first {
@@ -290,6 +294,7 @@ p span {
     position: absolute;
     left: 8.5vw;
     top: 57vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text6 {
@@ -302,6 +307,7 @@ p span {
     width: 38vw;
     left: 13vw;
     top: 63.5vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text7 {
@@ -314,6 +320,7 @@ p span {
     width: 38vw;
     left: 13vw;
     top: 74vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card {
@@ -339,6 +346,7 @@ p span {
     top: 81vw;
     left: 65vw;
     width: 10vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .freebet_ikon {
@@ -382,6 +390,7 @@ p span {
     top: 80.9vw;
     left: 27vw;
     width: 18vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -441,6 +450,7 @@ p span {
     position: absolute;
     left: 12vw;
     top: 103vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text9 {
@@ -453,6 +463,7 @@ p span {
     width: 38vw;
     left: 4vw;
     top: 109vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text10 {
@@ -465,6 +476,7 @@ p span {
     width: 38vw;
     left: 4vw;
     top: 113vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text11 {
@@ -477,6 +489,7 @@ p span {
     width: 30vw;
     left: 8vw;
     top: 121vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .text12 {
@@ -489,6 +502,7 @@ p span {
     width: 20vw;
     left: 13.3vw;
     top: 127vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .stat-mobile {
@@ -577,6 +591,7 @@ div.slider figure {
     top: 134vw;
     left: 18vw;
     width: 18vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -625,6 +640,7 @@ div.slider figure {
     position: absolute;
     left: 36.4vw;
     top: 147vw;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 *:focus,
