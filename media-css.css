@@ -1,11 +1,11 @@
-@media (max-width: 435px) {    
-    body{
+@media (max-width: 435px) {
+    body {
         background-image: url(images/back-mobile.jpg);
-         background-repeat: no-repeat;
-    background-size: cover;
-    overflow: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
     }
-    
+
     .header {
         display: none;
     }
@@ -110,30 +110,30 @@
         top: 2vw;
         left: 17vw;
     }
-    
+
     p span {
         font-family: "Nunito-normal";
         font-size: 24px;
         font-weight: 900;
         letter-spacing: 1px;
         display: block;
-    
+
         background: url(images/animated-text-fill2.png) repeat-y;
         -webkit-background-clip: text;
         background-clip: text;
-    
+
         -webkit-text-fill-color: transparent;
         -webkit-animation: aitf 75s linear infinite;
-    
+
         -webkit-transform: translate3d(0, 0, 0);
         -webkit-backface-visibility: hidden;
     }
-    
+
     @-webkit-keyframes aitf {
         0% {
             background-position: 0% 50%;
         }
-    
+
         100% {
             background-position: 100% 50%;
         }
@@ -150,7 +150,7 @@
         left: 32vw;
         pointer-events: none;
     }
-    
+
     .text2 {
         text-align: right;
         font-family: "Nunito-italic";
@@ -162,7 +162,7 @@
         left: 22vw;
         top: 12vw;
     }
-    
+
     .text3 {
         text-align: right;
         font-family: "Nunito-italic";
@@ -174,7 +174,7 @@
         left: 22vw;
         top: 35vw;
     }
-    
+
     .text4 {
         text-align: right;
         font-family: "Nunito-italic";
@@ -186,7 +186,7 @@
         left: 22vw;
         top: 75vw;
     }
-    
+
     .text_buttonfirst {
         text-align: right;
         text-transform: uppercase;
@@ -199,7 +199,7 @@
         top: 100vw;
         width: 50vw;
     }
-    
+
     .button_first {
         border: 2px solid white;
         border-radius: 100px;
@@ -210,25 +210,25 @@
         top: 101vw;
         left: 85vw;
     }
-    
+
     .button_first_ikonka {
         position: absolute;
         top: 5vw;
         right: -0.2vw;
         transform: translateY(-50%);
     }
-    
+
     .first_ikon {
         width: 9vw;
     }
-    
+
     .button_first:hover {
         width: 10vw;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.3s;
     }
-    
+
     .button_first:active {
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.05s;
@@ -241,7 +241,7 @@
         opacity: 0;
         pointer-events: none;
     }
-    
+
     .text5 {
         text-transform: uppercase;
         text-align: center;
@@ -254,7 +254,7 @@
         left: 16vw;
         top: 115vw;
     }
-    
+
     .text6 {
         text-align: center;
         font-family: "Nunito-italic";
@@ -266,7 +266,7 @@
         left: 5vw;
         top: 125vw;
     }
-    
+
     .text7 {
         text-align: center;
         font-family: "Nunito-italic";
@@ -278,11 +278,11 @@
         left: 5vw;
         top: 150vw;
     }
-    
+
     .card {
         display: none;
     }
-    
+
     .zenit_mobile {
         display: block;
         width: 50vw;
@@ -305,14 +305,14 @@
         left: 33vw;
         width: 10vw;
     }
-    
+
     .freebet_ikon {
         width: 7vw;
         position: absolute;
         left: 1vw;
         top: 1.5vw;
     }
-    
+
     .freebet_ikonka {
         border: 2px solid white;
         border-radius: 100px;
@@ -323,19 +323,19 @@
         top: 218vw;
         left: 59vw;
     }
-    
+
     .freebet_ikonka:hover {
         width: 10vw;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.3s;
     }
-    
+
     .freebet_ikonka:active {
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.05s;
     }
-    
+
     .textpodikonka {
         text-align: center;
         text-transform: uppercase;
@@ -348,7 +348,7 @@
         left: 10vw;
         width: 70vw;
     }
-    
+
     .buttonikonka {
         border: 2px solid white;
         border-radius: 100px;
@@ -359,24 +359,24 @@
         top: 170.5vw;
         left: 75vw;
     }
-    
+
     .iconka {
         position: absolute;
         transform: translateY(-50%);
     }
-    
+
     .image1 {
         width: 9vw;
         position: absolute;
     }
-    
+
     .buttonikonka:hover {
         width: 10vw;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.3s;
     }
-    
+
     .buttonikonka:active {
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.05s;
@@ -389,7 +389,7 @@
         opacity: 0;
         pointer-events: none;
     }
-    
+
     .text8 {
         text-transform: uppercase;
         text-align: center;
@@ -402,19 +402,22 @@
         left: 35vw;
         top: 235vw;
     }
-    
-    .text9, .text10, .text11, .text12 {
+
+    .text9,
+    .text10,
+    .text11,
+    .text12 {
         display: none;
     }
-    
-.stat-mobile {
-    display: block;
-    text-align: center;
-    list-style:none;
+
+    .stat-mobile {
+        display: block;
+        text-align: center;
+        list-style: none;
         font-family: "Nunito-italic";
         color: #ffffff;
         font-size: 16px;
-        font-weight:700 ;
+        font-weight: 700;
         word-wrap: normal;
         position: absolute;
         width: 80vw;
@@ -422,7 +425,7 @@
         top: 244vw;
         line-height: 5vw;
         text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-}
+    }
 
     .person1 {
         width: 48vw;
@@ -431,11 +434,11 @@
         left: 30vw;
         pointer-events: none;
     }
-    
+
     div.slider {
         display: none;
     }
-    
+
     .textpodikonka2 {
         text-align: center;
         text-transform: uppercase;
@@ -447,8 +450,8 @@
         top: 294vw;
         left: 18vw;
         width: 48vw;
-    } 
-    
+    }
+
     .buttonikonka2 {
         border: 2px solid white;
         border-radius: 100px;
@@ -459,25 +462,25 @@
         top: 295.5vw;
         left: 70vw;
     }
-    
+
     .iconka2 {
         position: absolute;
         top: 5vw;
         left: 2vw;
         transform: translateY(-50%);
     }
-    
+
     .image2 {
         width: 6.2vw;
     }
-    
+
     .buttonikonka2:hover {
         width: 10vw;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.3s;
     }
-    
+
     .buttonikonka2:active {
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         transition: 0.05s;
@@ -495,17 +498,17 @@
         left: 32vw;
         top: 315vw;
     }
-    
+
     .wrapper {
         display: none;
     }
-    
+
     .links-mobile {
         position: absolute;
-        display:flex;
-  font-family: "Nunito-normal";
-    font-weight: 800;
-    list-style: none;
+        display: flex;
+        font-family: "Nunito-normal";
+        font-weight: 800;
+        list-style: none;
     }
 
     .links-mobile .icon {
@@ -516,9 +519,9 @@
         margin: 2vw;
         background-color: #ffffff;
         width: 10vw;
-    height: 10vw;
-    border-radius: 30px;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+        height: 10vw;
+        border-radius: 30px;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55)
     }
 
     .tooltip {
@@ -529,10 +532,10 @@
         background-color: #000749;
         position: absolute;
         top: 340vw;
-        height: 12vw;
+        height: 13vw;
         width: 99.9vw;
     }
-    
+
     .textfooter {
         color: #ffffff;
         font-family: "Nunito-normal";
@@ -545,39 +548,39 @@
         left: 0vw;
         margin-top: 3vw;
     }
-    
+
     .footer span {
         display: block;
     }
-    
+
     .image3 {
         width: 13vw;
         position: absolute;
         top: -1.5vw;
         right: -1.5vw;
     }
-    
+
     .image4 {
         width: 8vw;
         position: absolute;
         top: 0.1vw;
         left: 0.8vw;
     }
-    
+
     .image5 {
         width: 8vw;
         position: absolute;
         top: 0.8vw;
         left: 0.8vw;
     }
-    
+
     .image6 {
         width: 9vw;
         position: absolute;
         top: 0.9vw;
         left: 0.1vw;
     }
-    
+
     .image7 {
         width: 7vw;
         position: absolute;

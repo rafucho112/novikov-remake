@@ -21,11 +21,9 @@ html {
 }
 
 body {
-    width: auto;
-    height: auto;
     background-image: url(images/back.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     overflow: auto;
 }
 
@@ -41,9 +39,9 @@ body {
 .burger-checkbox {
     position: absolute;
     visibility: hidden;
-  }
-  
-  .burger {
+}
+
+.burger {
     cursor: pointer;
     display: none;
     position: relative;
@@ -52,9 +50,10 @@ body {
     width: 40px;
     height: 26px;
     margin: 30px auto;
-  }
-  .burger::before,
-  .burger::after {
+}
+
+.burger::before,
+.burger::after {
     content: '';
     left: 0;
     position: absolute;
@@ -63,29 +62,33 @@ body {
     height: 4px;
     border-radius: 10px;
     background: #0032c9;
-  }
-  .burger::before {
+}
+
+.burger::before {
     top: 0;
     box-shadow: 0 11px 0 #0032c9;
     transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
+}
+
+.burger::after {
     bottom: 0;
     transition: bottom .3s .15s, transform .3s;
-  }
-  .burger-checkbox:checked + .burger::before {
+}
+
+.burger-checkbox:checked+.burger::before {
     top: 11px;
     transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
     transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger-checkbox:checked + .burger::after {
+}
+
+.burger-checkbox:checked+.burger::after {
     bottom: 11px;
     transform: rotate(-45deg);
     transition: bottom .3s, transform .3s .15s;
-  }
+}
 
-  .menu-list {
+.menu-list {
     top: 0;
     left: 0;
     position: absolute;
@@ -98,8 +101,9 @@ body {
     transform: translateX(-100%);
     transition: .3s;
     width: 200px;
-  }
-  .menu-item {
+}
+
+.menu-item {
     font-family: "Nunito-normal";
     display: block;
     padding: 8px;
@@ -107,13 +111,15 @@ body {
     font-size: 17px;
     text-align: center;
     text-decoration: none;
-  }
-  .menu-item:hover {
+}
+
+.menu-item:hover {
     background: rgba(255, 255, 255, 0.2)
-  }
-  .burger-checkbox:checked ~ .menu-list {
+}
+
+.burger-checkbox:checked~.menu-list {
     transform: translateX(0);
-  }
+}
 
 .topmenu a {
     color: #5983fc;
@@ -235,9 +241,9 @@ p span {
     font-weight: 750;
     color: #ffffff;
     position: absolute;
-    left: 56vw;
+    left: 59vw;
     top: 43vw;
-    width: 18vw;
+    width: 15vw;
     text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -752,7 +758,7 @@ div.slider figure {
 
 .footer {
     background-color: #000749;
-    width: 98.85vw;
+    width: 98.9vw;
     height: 5vw;
     position: absolute;
     top: 165vw;
